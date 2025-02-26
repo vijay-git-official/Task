@@ -20,7 +20,7 @@ const Pagination = () => {
     return (
         <>
             <div>
-                <h1>Pagination</h1>
+                <h1>Pagination...</h1>
                 
                 {/* Current Page Indicator */}
                 <p className="mt-2 font-semibold">Current Page: {currentPage + 1}</p>
