@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import FilterSort from "./FilterSort";
 
 const Usememo = () => {
     const [count, setCount] = useState(0);
@@ -30,6 +31,8 @@ const Usememo = () => {
                     className="border p-1 rounded"
                 />
                 <span className="ml-5">{doubleValue}</span>
+
+                <FilterSort />
             </div>
         </>
     );
