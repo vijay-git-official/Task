@@ -1,11 +1,16 @@
 
 import './App.css'
-import Pagination from './components/Pagination'
+// import Pagination from './components/Pagination'
+import Usememo from './components/Usememo'
+
+
 
 function App() {
 
   return (
- <Pagination />
+    // <Pagination />
+    <Usememo />
+  
   )
 }
 
